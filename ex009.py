@@ -3,7 +3,7 @@ import time
 import emoji
 import random
 print(emoji.emojize(":car:"*random.randint(30,35),use_aliases=True))
-print("Teste de Conhecimento em Python")
+print("Criando um usuário para jogar adivinhação em Python")
 print(emoji.emojize(":car:"*random.randint(30,35),use_aliases=True))
 n = 0
 pnome = str(input("Digite seu Primeiro nome: ")).upper()
