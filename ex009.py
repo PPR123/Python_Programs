@@ -30,7 +30,7 @@ else:
     print("Bem Vindo ao Jogo da adivinhação sua primeira vez jogando este jogo cemeçou hoje: {}".format(data))
     print("-=-"*random.randint(30,35))
     vezes = 2
-    while vezes >= 0 :
+    while vezes >= 1 :
         resp = random.randint(0,5)
         jogador = int(input("DIgite um número de 0 a 5: "))
         if jogador == resp:
